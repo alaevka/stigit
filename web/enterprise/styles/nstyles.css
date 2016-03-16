@@ -1,0 +1,179 @@
+/* CSS Document */
+
+/*------------------------------ Blue Interface -----------------------*/
+.headTable {
+        font-size: 11px;
+        font-family: Verdana;
+        border-right: #fff 1px solid;
+        border-left: #fff 1px solid;
+        border-top: #fff 0px solid;
+        background: url(tile_sub.gif);
+        margin: 0px;
+        color: #3a4f6c;
+        letter-spacing: 1px;
+}
+
+.headList {
+        font-size: 11px;
+        font-family: Verdana;
+        background: #bcd0ed;
+        color: #3a4f6c
+}
+.headSubList {
+        font-size: 11px;
+        font-family: Verdana;
+        background: #d1dceb;
+        color: #3a4f6c
+}
+
+.rowList {
+        background: #e4eaf2
+}
+.rowListSelect {
+        background: #f0f5fa
+}
+.rowListYellow {
+background:#FFFFCC
+}
+.rowListGr {
+        background: #DEDEDE
+}
+.rowListGrSelect {
+        background: #EAEAEA
+}
+
+
+.endList {
+        font-size: 1px;
+        background: #8394b2;
+        color: #000;
+        height: 5px
+}
+.headBorder {
+        padding: 5px;
+        border-bottom: #5176b5 1px solid;
+        font-weight: bold;
+}
+.headNoBorder {
+        padding: 5px;
+        font-weight: bold;
+}
+.item {
+        font-size: 13px;
+        font-family: Verdana;
+}
+.title {
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+}
+
+.borderList {
+        border: #072a66 1px solid;
+        padding: 0px;
+        background: #fff;
+        margin: 0px;
+}
+
+.borderListGreen {
+        border: #42BF97 1px solid;
+        padding: 0px;
+        background: #fff;
+        margin: 0px;
+}
+
+.blueButton {
+        border: #4c77b6 1px solid;
+        padding: 2px;
+        font-size: 11px;
+        background: #dfe6ef;
+        color: #000;
+        font-family: Verdana;
+        font-weight: bold;
+}
+
+.redButton {
+        border: #986265 1px solid;
+        padding: 2px;
+        font-size: 11px;
+        background: #f4e7ea;
+        color: #000;
+        font-family: Verdana;
+        font-weight: bold;
+}
+
+.greenButton {
+        border: #42BF97 1px solid;
+        padding: 2px;
+        font-size: 11px;
+        background: #DBF2E8;
+        color: #000;
+        font-family: Verdana;
+        font-weight: bold;
+}
+
+.intColor {
+        background: #fff;
+}
+
+.textField {
+        border: #4c77b6 1px solid;
+        font-size: 12px;
+        background: #fff;
+        color: #000;
+        font-family: Verdana;
+}
+
+.textFieldYellow {
+        border:   #4c77b6 1px solid;
+        font-size: 12px;
+		background: #FFFFCC;
+        color: #000;
+        font-family: Verdana;
+}
+
+.globSelect{
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold;
+}
+
+.globSelect a:link, .globSelect a:visited {
+        display: block;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #cccccc;
+        background-image:  url("bg_nav.jpg");
+        padding: 3px 0px 3px 10px;
+        color: #21536A;
+        text-decoration: none;
+}
+
+.globSelect a:hover{
+        border-top: 1px solid #cccccc;
+        background-color: #DDEEFF;
+        background-image: none;
+        text-decoration: none;
+}
+
+.textFieldSelect {
+        border: #4c77b6 1px solid;
+        font-size: 12px;
+        background: #fff;
+        color: #000;
+        font-family: Verdana;
+	background-image:url(list.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+/*------------------------------ END Blue Interface -----------------------*/
+
+.tdInt
+{ 
+       background-color: #E2E5E7;
+}
+
+.menuField
+{
+border-top-width:2px;
+border-top:#00CC00 solid 2px;
+}

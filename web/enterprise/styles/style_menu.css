@@ -1,0 +1,43 @@
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#mainMenuNav2
+{
+        position: relative;
+        height: 32px;
+        color: #cccccc;
+        margin: 0px;
+        background-image:  url("Images/glbnav_background.gif");
+        white-space:nowrap;
+}
+#mainMenuLeft2
+{
+background-image:  url("Images/gblnav_left.gif");
+}
+
+#mainMenuRight2
+{
+background-image:  url("Images/glbnav_right.gif");
+}
+
+a.mainMenuItem, a.mainMenuItem:visited
+{
+  /*font-family:Arial, Helvetica, sans-serif;*/
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  color: #000000;
+  font-weight: bold;
+  padding-left:8;
+  padding-right:5;
+  padding-bottom:2;
+  padding-top:2;
+  border-right: 1px solid #8FB8BC;
+  cursor:default;
+}
+
+a.mainMenuItem:hover
+{
+  background-image:  url("Images/glblnav_selected.gif");
+  text-decoration: none;
+  color:#000000;
+  cursor:default;
+}
+/* -------------------------------------------------------------------------------------------------------------*/

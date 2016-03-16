@@ -1,0 +1,409 @@
+body{
+        font-family: Arial,sans-serif;
+        line-height: 1.166;
+        margin: 10px;
+        padding: 0px;
+        background: #87969D fixed;
+}
+
+.flatItem
+{
+        border :solid 1px;
+}
+
+#selectList {
+        position: absolute;
+        display:none;
+        border: 1px outset #B9B9FF;
+        z-index: auto;
+}
+
+/******* hyperlink and anchor tag styles *******/
+
+a:link, a:visited{
+font-family:Arial, Helvetica, sans-serif;
+        text-decoration: none;
+		color:#005FA9;
+		font-size:12px;
+}
+
+a:hover{
+        text-decoration: underline;
+}
+
+a.link_upd:link, a.link_upd:visited{
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration: none;
+		color:#005FA9;
+		font-size:12px;
+		font-weight:bold;
+}
+
+a.link_upd:hover{
+        color:#005FA9;
+        text-decoration: underline;
+}
+
+
+#siteName {
+		font-family:"Segoe UI", Arial, Helvetica, sans-serif;
+        font-size: 120%;
+        color: #FFFFFF;
+}
+/*****************************************************/
+
+a#mainMenuHome, a#mainMenuHome:visited{
+
+background:url(../../../../Images/home/home1.png) no-repeat;
+text-decoration:none;
+width:24px;
+height:24px
+
+}
+a#mainMenuHome:hover
+{
+background:url(../../../../Images/home/home2.png) no-repeat;
+text-decoration:none;
+}
+/***************** popup **********************/
+
+#popup {
+        position: absolute;
+        border: 1px outset #B9B9FF;
+        display: none;
+        z-index: 19;
+}
+
+#shadow {
+        position: absolute;
+        display: none;
+        filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='4',MakeShadow='true',ShadowOpacity='0.6');
+        z-index: 18;
+}
+
+
+
+/************* mainMenu styles ****************/
+
+#mainMenuNav{
+        position: relative;
+        width: 100%;
+        height: 32px;
+        color: #cccccc;
+        padding: 0px;
+        margin: 0px;
+        background-image:  url("glbnav_background.gif");
+}
+
+#mainMenuTbl{
+        position: relative;
+        width: 100%;
+        height: 32px;
+        color: #cccccc;
+        background-image:  url("glbnav_background.gif");
+}
+
+
+#gnl {
+        position: absolute;
+        top: 0px;
+        left:0px;
+}
+
+#gnr {
+        position: absolute;
+        top: 0px;
+        right:0px;
+}
+
+#mainMenuLink{
+        position: absolute;
+        top: 6px;
+        height: 22px;
+        padding: 0px;
+        margin: 0px;
+        left: 10px;
+        font-family: Verdana;
+}
+
+/*
+a.mainMenuItem, a.mainMenuItem:visited{
+        font-size: 13px;
+        color: #000000;
+        font-weight: bold;
+        margin: 0px;
+        padding: 2px 5px 4px 5px;
+        border-right: 1px solid #8FB8BC;
+}
+
+a.mainMenuItem:hover{
+        background-image:  url("glblnav_selected.gif");
+        text-decoration: none;
+}
+
+a.mainMenuItem_right, a.mainMenuItem_right:visited{
+        position: absolute;
+        top: 6px;
+        font-size: small;
+        color: #000000;
+        font-weight: bold;
+        padding: 2px 5px 4px 5px;
+
+        right:10px;
+}
+
+a.mainMenuItem_right:hover{
+        background-image:  url("glblnav_selected.gif");
+        text-decoration: none;
+}
+*/
+#loadInd {
+        position:absolute;
+        z-index:100;
+        width: 100;
+        right: 3px;
+        top: 56px;
+        font-size: 11px;
+        border: 1px outset #B9B9FF;
+        display: none;
+        font-size: 12px;
+        background: #FFCCCC;
+        color: #000000;
+        text-align: center;
+}
+/************ bigSelect styles **************/
+
+#bigSelect{
+        margin: 0px;
+        padding: 0px;
+
+}
+
+#bigSelect h3{
+        padding: 10px 0px 2px 10px;
+        border-bottom: 1px solid #cccccc;
+}
+
+#bigSelect a:link, #bigSelect a:visited {
+        display: block;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #cccccc;
+        background-image:  url("bg_nav.jpg");
+        font-weight: bold;
+        padding: 3px 0px 3px 10px;
+        color: #21536A;
+        text-decoration: none;
+}
+
+#bigSelect a:hover{
+        border-top: 1px solid #cccccc;
+        background-color: #DDEEFF;
+        background-image: none;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+.bigSelected{
+        margin: 0px;
+        padding: 0px;
+
+}
+
+.bigSelected h3{
+        padding: 10px 0px 2px 10px;
+        border-bottom: 1px solid #cccccc;
+}
+
+.bigSelected a:link, .bigSelected a:visited {
+        display: block;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #cccccc;
+        background-image:  url("bg_nav.jpg");
+        font-weight: bold;
+        padding: 3px 0px 3px 10px;
+        color: #21536A;
+        font-size: small;
+        text-decoration: none;
+}
+
+.bigSelected a:hover{
+        border-top: 1px solid #cccccc;
+/*        background-color: #DDEEFF; */
+/*        background-image: none;  */
+        font-weight: bold;
+        text-decoration: none;
+}
+
+
+/************* breadCrumb styles ***************/
+
+#breadCrumb{
+        padding: 5px 0px 5px 10px;
+        font: x-small Verdana,sans-serif;
+    color: #AAAAAA;
+}
+
+#breadCrumb a:link{
+        color: #AAAAAA;
+        text-decoration: none;
+}
+
+#breadCrumb a:visited{
+        color: #AAAAAA;
+        text-decoration: none;
+}
+
+#breadCrumb a:hover{
+        color: #005FA9;
+        text-decoration: none;
+}
+
+/************* Other styles ****************/
+
+#mark_gray a:link, #mark_gray a:visited{
+        text-decoration: none;
+        font-style: normal;
+        color: #3300FF;
+        font-weight: bold;
+}
+#mark_gray a:hover {
+        color: #CC0000;
+        display: block;
+}
+
+
+#mark a:link, #mark a:visited{
+        text-decoration: none;
+        font-style: normal;
+        color: #3300FF;
+        font-weight: bold;
+}
+#mark a:hover {
+        background-color: #FFCC99;
+        display: block;
+}
+
+#mark_n a:link, #mark_n a:visited{
+        text-decoration: none;
+        font-style: normal;
+        color: #3300FF;
+}
+#mark_n a:hover {
+        background-color: #FFCC99;
+        display: block;
+}
+
+#col a:link, #col a:visited{
+        text-decoration: none;
+        font-style: normal;
+        color: #3300FF;
+}
+#col a:hover {
+        background-color: #CCCCCC;
+        display: block;
+}
+
+#linkMark a:link, #linkMark a:visited{
+        text-decoration: none;
+        font-style: normal;
+        font-size: x-small;
+        color: #0066FF;
+}
+
+#linkMark a:hover {
+        text-decoration: none;
+/*        font-weight: bold; */
+        color: #CC0000;
+}
+
+#linkMarkN a:link, #linkMarkN a:visited{
+        text-decoration: none;
+        font-style: normal;
+        color: #0066FF;
+}
+
+#linkMarkN a:hover {
+        text-decoration: none;
+/*        font-weight: bold; */
+        color: #CC0000;
+}
+
+
+a.Page:visited{
+color: #000066;
+text-decoration: none;
+}
+
+a.Page:hover{
+text-decoration: none;
+color: #3300CC;
+}
+a.Page:link{
+color: #000066;
+text-decoration: none;
+}
+
+#pfc_online 
+{
+  padding: 0;
+  overflow:auto;
+  height: 100%;
+  SCROLLBAR-FACE-COLOR: #ffffff;
+  SCROLLBAR-HIGHLIGHT-COLOR: #6699CC;
+  SCROLLBAR-SHADOW-COLOR: #4477AA;
+  SCROLLBAR-3DLIGHT-COLOR: #ccccdd;
+  SCROLLBAR-ARROW-COLOR: #4477AA;
+  SCROLLBAR-TRACK-COLOR: #D1D1D1;
+  SCROLLBAR-DARKSHADOW-COLOR: #ccccdd;/*#D1D1D1*/
+}
+
+
+.title a:link, .title a:visited{
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        text-decoration: none;
+		color:#005FA9;
+}
+
+.title a:hover{
+        text-decoration: underline;
+}
+
+/*-----------------*/
+
+.title2 {
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+}
+
+a.page_doc:visited, a.page_doc:link{
+width:150px;
+color: #000000;
+text-decoration: none;
+padding:1px;
+border:#999999 solid 1px;
+font-weight:normal;
+margin-right:5px;
+text-align:center;
+white-space:nowrap;
+}
+a.page_doc:hover{
+text-decoration: none;
+background:#FFFFFF;
+border:#666666 solid 1px;
+padding:1px;
+}
+a.page_doc_current,a.page_doc_current:hover,a.page_doc_current:visited{
+width:150px;
+background-color:#FFFFFF;/*#A4CEF9 #77AAFF; /*FFFFFF*/
+text-decoration:none;
+border:#666666 solid 1px; 
+padding:1px;
+margin-right:5px;
+text-align:center;
+color: #000000;
+white-space:nowrap;
+}
+/*-----------------*/
